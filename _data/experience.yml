@@ -1,10 +1,61 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+  company: Autonomous Motorsports Purdue
+  link: https://engineering.purdue.edu/AMP/
+  job_title: Electrical Lead Engineer
+  dates: May 2019 – Present
+  # quote: >
+
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    * Designed self-driving race car to compete at the Indy 500
+    * Created custom PCB using KiCad to route control signals from TI microprocessor to servo motors
+    * Designed C code on microcontroller to interpret serial commands and output digital and analog control signals
+
+- layout: left
+  company: Purdue Neurotrauma Group
+  link: https://www.purdue.edu/research/png/
+  job_title: Undergraduate Research Assistant
+  dates: Dec 2019 – Present
+  # quote: >
+  description: | # this will include new lines to allow paragraphs
+    * Designed data collection circuitry for measuring the forces of a football tackle
+    * Programmed microcontroller to collect 60 channel analog data with a 1kHz sampling rate and write to SD card
+
+- layout: left
+  company: E3 Displays
+  link: https://www.e3displays.com/
+  job_title: Electrical Engineering Intern
+  dates: May 2020 – August 2020
+  # quote: >
+  description: | # this will include new lines to allow paragraphs
+    * Designed and implemented ventilator touch display manufacturing test bench
+    * Designed automated display adhesive dispenser user control box using an Arduino Microcontroller
+
+- layout: left
+  company: Card Connect
+  # link: https://www.fdisp.com/?_vsrefdom=p.6790&gclid=CjwKCAiA4o79BRBvEiwAjteoYNuGQHDeiadb6UNWQ-vjsHUAdx1IHpWBeqEz0lH4uCZGhFlUMnmzFRoCnUUQAvD_BwE
+  job_title: Software Development Intern
+  dates: May 2019 – Present
+  # quote: >
+  description: | # this will include new lines to allow paragraphs
+    *	Automated payroll system using JavaFX to streamline the employee payment process
+    *	Developed program to analyze Google AdWords for efficient pay per click lead bidding
+
+- layout: left
+  company: First Data Independent Sales
+  # link: https://www.fdisp.com/?_vsrefdom=p.6790&gclid=CjwKCAiA4o79BRBvEiwAjteoYNuGQHDeiadb6UNWQ-vjsHUAdx1IHpWBeqEz0lH4uCZGhFlUMnmzFRoCnUUQAvD_BwE
+  job_title: Software Development Intern
+  dates: May 2019 – Present
+  # quote: >
+  description: | # this will include new lines to allow paragraphs
+    *	Assisted clients with the EMV chip card setup for their POS system in order to eliminate charge backs
+
+- layout: left
+  company: Autonomous Robot Team
+  # link: none
+  job_title: Software Design Lead
+  dates: Aug 2018 – May 2019
+  # quote: >
+  #   Honors Engineering
+  description: | # this will include new lines to allow paragraphs
+    *	Worked Honors Engineering team with Python to develop autonomous algorithm to guide robot through maze, map surrounding environment for electrical and thermal hazards, and avoid physical obstacles
