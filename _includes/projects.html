@@ -1,6 +1,17 @@
 <div class="container projects-container">
   <h3>{{ site.projects_title | default: "Projects" }}</h3>
   {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+  {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+  <div class="media-container">
+    {% for photo in project.photos %}
+    <img src="{{ photo.photo }}">
+    <p>{{ photo.photo_title }}</p>
+    {% endfor %}
+    {% for video in project.videos %}
+    <video controls>
+      <source src="{{ video.video }}" type="video/mp4">
+    </video>
+    <p>{{ video.video_title }}</p>
+    {% endfor %}
+  </div>
   {% endfor %}
-</div>
