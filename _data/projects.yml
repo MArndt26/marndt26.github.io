@@ -1,9 +1,57 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  name: High Speed Force Sensor Datalogger
+  link: https://github.com/MArndt26/PNG_Datalogger
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-    Short overview of the project (optional)
+    Datalogger for PNG Research using the Teensy 4.1 development board
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    Purdue Neurological Group (PNG) is involved in many different research projects, one of which involves measuring the 
+    effects of head trama in athletics. More specifically, football helmet collisions. The goal of the project in reguards 
+    to this repository is to design and implement high-speed data collection circuitry to measure the forces that take place 
+    during one of these football impacts (tackles). "Data collection circuitry" refers to the following:
+      * a microcontroller to read in analog inputs through an ADC
+      * variable resistance strain guages to measure forces
+      * analog multiplexers to route 6 different signals into the microcontroller
+      * differential amplifier / wheatstone bridge to convert the sensor resistance changes into changes in voltage.
+      * SD card to record the data
+
+- layout: top-middle
+  name: AMP Jetson Serial Simulator
+  link: https://github.com/Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Electron based serial simulator for testing serial communication between the Jetson and Arduino MCU
+  description: | # this will include new lines to allow paragraphs
+    This Project is used to interface with the microcontroller for the Autonomous Motorsport Purdue go kart.
+
+- layout: top-middle
+  name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
+  link: https://github.com/Autonomous-Motorsports-Purdue/AMP_MCUv1
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Arduino based microntroller program for controlling low level electronics of autonomous go kart
+  description: | # this will include new lines to allow paragraphs
+    The purpose of this project is to implement a serial parsing microcontroller system to operate the steering, 
+    throttle, and braking functionality of the Autonomous Motorsport Purdue (AMP) go-kart. Autonomous racing has 
+    grown in popularity as more teams work to solve the unique problem of autonomous decision making at very high 
+    speeds.  Our sub-team is working with the low-level electrical hardware on our modified go-kart, mainly focusing 
+    on parsing data from the onboard computer and distributing signals to other electronics such as the motor controller, 
+    linear actuator, and servos. To do this, the microcontroller receives custom serial packets from the go kart’s 
+    computer to enable and then control the steering angle, throttle intensity, and brake position. The steering angle 
+    is set with a pulse width modulated (PWM) signal from the microcontroller.  The throttle is controlled via the digital 
+    to analog converter (DAC) and the braking is set via digital signals. To reduce processing time the serial structure 
+    was designed to use byte long data instead of floating-point values because the microcontroller does not have dedicated 
+    floating-point hardware. Furthermore, we implemented various error handling methods for packet transmission such as 
+    cyclic redundancy check. This project is currently in its initial testing phase. We are testing the integration of our 
+    subsystems by controlling the serial input using a custom javascript-based simulator. The ultimate goal of this project 
+    is to have a fully autonomous go-kart that can navigate any track environment at the maximum speed possible.
+
+- layout: top-middle
+  name: E3 Auto Adheasive Dispenser
+  link: https://github.com/MArndt26/E3-Auto-Dispenser
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Automated Control System for Display Adheasive Dispenser
+  description: | # this will include new lines to allow paragraphs
+    This Project is used to create a control pad and scale to dispense adhesive until a weight limit is reached.
