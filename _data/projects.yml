@@ -10,11 +10,14 @@
     effects of head trama in athletics. More specifically, football helmet collisions. The goal of the project in reguards 
     to this repository is to design and implement high-speed data collection circuitry to measure the forces that take place 
     during one of these football impacts (tackles). "Data collection circuitry" refers to the following:
-      * a microcontroller to read in analog inputs through an ADC
-      * variable resistance strain guages to measure forces
-      * analog multiplexers to route 6 different signals into the microcontroller
-      * differential amplifier / wheatstone bridge to convert the sensor resistance changes into changes in voltage.
+      * A microcontroller to read in analog inputs through an ADC
+      * Variable resistance strain guages to measure forces
+      * Analog multiplexers to route 6 different signals into the microcontroller
+      * Differential amplifier / wheatstone bridge to convert the sensor resistance changes into changes in voltage.
       * SD card to record the data
+
+    My contribution to this effort is the design and program this force collecting circuitry.  There has been a long history
+    for this project that can be seen [here](https://github.com/MArndt26/PNG_Datalogger#project-history).
 
   # photos:
   #   - photo: ./assets/profile.jpeg
