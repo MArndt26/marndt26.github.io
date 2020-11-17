@@ -8,9 +8,9 @@
     <p>{{ photo.photo_title }}</p>
     {% endfor %}
     {% for video in project.videos %}
-    <video controls>
-      <source src="{{ video.video }}" type="video/mp4">
-    </video>
+    <div class="video-responsive">
+      <iframe width="560" height="315" src="{{ video.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div> 
     <p>{{ video.video_title }}</p>
     {% endfor %}
   </div>

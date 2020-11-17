@@ -18,13 +18,13 @@
 
     My contribution to this effort is the design and program this force collecting circuitry.  There has been a long history
     for this project that can be seen [here](https://github.com/MArndt26/PNG_Datalogger#project-history).
-
   # photos:
   #   - photo: ./assets/profile.jpeg
   #     photo_title: test here for the description
   # videos:
-  #   - video: ./assets/AMP_Steering_Benchtop_JSS_Testing.MOV
-  #     video_title: this is a test caption for a video
+  #   - video: https://www.youtube.com/embed/CATtHCXGsZI
+  #     video_title: AMP Electrical Full Integration
+
 - layout: top-middle
   name: AMP Jetson Serial Simulator
   link: https://github.com/Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
@@ -55,6 +55,9 @@
     cyclic redundancy check. This project is currently in its initial testing phase. We are testing the integration of our
     subsystems by controlling the serial input using a custom javascript-based simulator. The ultimate goal of this project
     is to have a fully autonomous go-kart that can navigate any track environment at the maximum speed possible.
+  videos:
+    - video: https://www.youtube.com/embed/CATtHCXGsZI
+      video_title: AMP Electrical Full Integration
 
 - layout: top-middle
   name: E3 Auto Adheasive Dispenser
