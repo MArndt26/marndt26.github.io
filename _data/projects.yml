@@ -18,9 +18,25 @@
 
     My contribution to this effort is the design and program this force collecting circuitry.  There has been a long history
     for this project that can be seen [here](https://github.com/MArndt26/PNG_Datalogger#project-history).
-  # photos:
-  #   - photo: ./assets/profile.jpeg
-  #     photo_title: test here for the description
+  photos:
+    - photo: ./assets/png_datalogger/helmet_setup.jpg
+      photo_title: test here for the description
+      photo_type: card card-wide
+    - photo: ./assets/png_datalogger/helmet_closeup.jpg
+      photo_title: test here for the description
+      photo_type: card
+    - photo: ./assets/png_datalogger/bend_device.jpg
+      photo_title: test here for the description
+      photo_type: card
+    - photo: ./assets/png_datalogger/breadboard.jpg
+      photo_title: test here for the description
+      photo_type: card card-big
+    - photo: ./assets/png_datalogger/strain_gaug_plot.jpg
+      photo_title: test here for the description
+      photo_type: card card-wide
+    - photo: ./assets/png_datalogger/test_setup.jpg
+      photo_title: test here for the description
+      photo_type: card card-wide
   # videos:
   #   - video: https://www.youtube.com/embed/CATtHCXGsZI
   #     video_title: AMP Electrical Full Integration

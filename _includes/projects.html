@@ -1,17 +1,24 @@
 <div class="container projects-container">
-  <h3>{{ site.projects_title | default: "Projects" }}</h3>
-  {% for project in site.data.projects %}
-  {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
-  <div class="media-container">
-    {% for photo in project.photos %}
-    <img src="{{ photo.photo }}">
-    <p>{{ photo.photo_title }}</p>
-    {% endfor %}
-    {% for video in project.videos %}
-    <div class="video-responsive">
-      <iframe width="560" height="315" src="{{ video.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div> 
-    <p>{{ video.video_title }}</p>
-    {% endfor %}
-  </div>
-  {% endfor %}
+	<h3>{{ site.projects_title | default: "Projects" }}</h3>
+  	{% for project in site.data.projects %}
+		{% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+		<div class="media-container">
+			{% if (project.photos) %}
+			<h1>Photo Gallary</h1>
+			{% endif %}
+			<div class="photo-grid">
+				{% for photo in project.photos %}
+					<div class="{{ photo.photo_type }}" style="background-image: url('{{ photo.photo }}')"></div>
+				{% endfor %}
+
+			</div>
+		
+			{% for video in project.videos %}
+				<div class="video-responsive">
+					<iframe width="560" height="315" src="{{ video.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div> 
+				<p>{{ video.video_title }}</p>
+			{% endfor %}
+		</div>
+	{% endfor %}
+</div>
