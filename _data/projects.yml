@@ -55,7 +55,7 @@
     this Jetson Serial Simulator program.  This software takes the place of the Jetson which allows for full electrical
     integration testing, without the need to schedule time with the physical Jetson computer.
   videos:
-    - video: https://www.youtube.com/embed/ZXJ-WJh36YA
+    - video: https://www.youtube.com/embed/daYhBjnEbTU
       video_title: AMP Jetson Serial Simulator Demonstration
 
 - layout: top-middle
@@ -91,3 +91,7 @@
     Automated Control System for Display Adheasive Dispenser
   description: | # this will include new lines to allow paragraphs
     This Project is used to create a control pad and scale to dispense adhesive until a weight limit is reached.
+    E3 Displays uses various manufacturing processes when fabricating the customized display stacks for its customers.
+    One of these processes involves using precise amounts of adhesive for bonding displays to cover glass.  In the past,
+    this has been a manual process, requiring operators to spend large amounts of time preparing the adhesive for the bonding
+    process.  This project automates this by bunding all the prep work into one location, controlled electronically.
