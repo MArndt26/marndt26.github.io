@@ -49,6 +49,9 @@
     Electron based serial simulator for testing serial communication between the Jetson and Arduino MCU
   description: | # this will include new lines to allow paragraphs
     This Project is used to interface with the microcontroller for the Autonomous Motorsport Purdue go kart.
+  videos:
+    - video: https://www.youtube.com/embed/ZXJ-WJh36YA
+      video_title: AMP Jetson Serial Simulator Demonstration
 
 - layout: top-middle
   name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
@@ -73,7 +76,7 @@
     is to have a fully autonomous go-kart that can navigate any track environment at the maximum speed possible.
   videos:
     - video: https://www.youtube.com/embed/CATtHCXGsZI
-      video_title: AMP Electrical Full Integration
+      video_title: AMP Electrical Full Integration Demonstration
 
 - layout: top-middle
   name: E3 Auto Adheasive Dispenser

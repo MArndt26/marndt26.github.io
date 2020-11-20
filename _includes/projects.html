@@ -4,7 +4,7 @@
 		{% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
 		<div class="media-container">
 			{% if (project.photos) %}
-			<h1>Photo Gallary</h1>
+			<h1>Photo Gallery</h1>
 			{% endif %}
 			<div class="photo-grid">
 				{% for photo in project.photos %}
@@ -12,7 +12,9 @@
 				{% endfor %}
 
 			</div>
-		
+			{% if (project.videos) %}
+			<h1>Video Gallery</h1>
+			{% endif %}
 			{% for video in project.videos %}
 				<div class="video-responsive">
 					<iframe width="560" height="315" src="{{ video.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
