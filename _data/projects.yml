@@ -1,8 +1,8 @@
 # Project template
 - layout: top-middle
   name: High Speed Force Sensor Datalogger
-  link: https://github.com/MArndt26/PNG_Datalogger
-  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  # link: https://github.com/MArndt26/PNG_Datalogger
+  github: MArndt26/PNG_Datalogger
   quote: >
     Datalogger for PNG Research using the Teensy 4.1 development board
   description: | # this will include new lines to allow paragraphs
@@ -43,20 +43,25 @@
 
 - layout: top-middle
   name: AMP Jetson Serial Simulator
-  link: https://github.com/Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
-  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  # link: https://github.com/Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
+  github: https://github.com/Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
   quote: >
-    Electron based serial simulator for testing serial communication between the Jetson and Arduino MCU
+    Electron based serial simulator for testing serial communication between the Jetson and Arduino MCU.
   description: | # this will include new lines to allow paragraphs
-    This Project is used to interface with the microcontroller for the Autonomous Motorsport Purdue go kart.
+    This Project is used to interface with the microcontroller for the Autonomous Motorsport Purdue go kart. A key issue 
+    for the AMP team is the allocation of resources between the subteams.  Due to the tight integration
+    of our systems, both Electrical and Software sub-teams require access to the kart's main computer (Nvidia Jetson)
+    and the electrical controller (Arduino MCU) for development/debugging tasks.  To solve this issue, I created 
+    this Jetson Serial Simulator program.  This software takes the place of the Jetson which allows for full electrical
+    integration testing, without the need to schedule time with the physical Jetson computer.
   videos:
     - video: https://www.youtube.com/embed/ZXJ-WJh36YA
       video_title: AMP Jetson Serial Simulator Demonstration
 
 - layout: top-middle
   name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
-  link: https://github.com/Autonomous-Motorsports-Purdue/AMP_MCUv1
-  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  # link: https://github.com/Autonomous-Motorsports-Purdue/AMP_MCUv1
+  github: Autonomous-Motorsports-Purdue/AMP_MCUv1
   quote: >
     Arduino based microntroller program for controlling low level electronics of autonomous go kart
   description: | # this will include new lines to allow paragraphs
@@ -80,8 +85,8 @@
 
 - layout: top-middle
   name: E3 Auto Adheasive Dispenser
-  link: https://github.com/MArndt26/E3-Auto-Dispenser
-  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  # link: https://github.com/MArndt26/E3-Auto-Dispenser
+  github: MArndt26/E3-Auto-Dispenser
   quote: >
     Automated Control System for Display Adheasive Dispenser
   description: | # this will include new lines to allow paragraphs
