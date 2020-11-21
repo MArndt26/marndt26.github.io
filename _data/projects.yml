@@ -16,7 +16,7 @@
       * Differential amplifier / wheatstone bridge to convert the sensor resistance changes into changes in voltage.
       * SD card to record the data
 
-    My contribution to this effort is the design and program this force collecting circuitry.  There has been a long history
+    My contribution to this effort involves designing and programing the force collecting circuitry.  There is a long history
     for this project that can be seen [here](https://github.com/MArndt26/PNG_Datalogger#project-history).
   photos:
     - photo: ./assets/png_datalogger/helmet_setup.jpg
@@ -94,4 +94,4 @@
     E3 Displays uses various manufacturing processes when fabricating the customized display stacks for its customers.
     One of these processes involves using precise amounts of adhesive for bonding displays to cover glass.  In the past,
     this has been a manual process, requiring operators to spend large amounts of time preparing the adhesive for the bonding
-    process.  This project automates this by bunding all the prep work into one location, controlled electronically.
+    process.  This project automates this by bundling all the prep work into one location, controlled electronically.
