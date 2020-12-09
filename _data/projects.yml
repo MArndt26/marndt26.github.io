@@ -1,5 +1,39 @@
 # Project template
 - layout: top-middle
+  name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
+  # link: https://github.com/Autonomous-Motorsports-Purdue/AMP_MCUv1
+  github: Autonomous-Motorsports-Purdue/AMP_MCUv1
+  quote: >
+    Arduino based microntroller program for controlling low level electronics of autonomous go kart
+  description: | # this will include new lines to allow paragraphs
+    The purpose of this project is to implement a serial parsing microcontroller system to operate the steering,
+    throttle, and braking functionality of the Autonomous Motorsport Purdue (AMP) go-kart. Autonomous racing has
+    grown in popularity as more teams work to solve the unique problem of autonomous decision making at very high
+    speeds.  Our sub-team is working with the low-level electrical hardware on our modified go-kart, mainly focusing
+    on parsing data from the onboard computer and distributing signals to other electronics such as the motor controller,
+    linear actuator, and servos. To do this, the microcontroller receives custom serial packets from the go kart’s
+    computer to enable and then control the steering angle, throttle intensity, and brake position. The steering angle
+    is set with a pulse width modulated (PWM) signal from the microcontroller.  The throttle is controlled via the digital
+    to analog converter (DAC) and the braking is set via digital signals. To reduce processing time the serial structure
+    was designed to use byte long data instead of floating-point values because the microcontroller does not have dedicated
+    floating-point hardware. Furthermore, we implemented various error handling methods for packet transmission such as
+    cyclic redundancy check. This project is currently in its initial testing phase. We are testing the integration of our
+    subsystems by controlling the serial input using a custom javascript-based simulator. The ultimate goal of this project
+    is to have a fully autonomous go-kart that can navigate any track environment at the maximum speed possible.
+  videos:
+    - video: https://www.youtube.com/embed/CATtHCXGsZI
+      video_title: AMP Electrical Full Integration Demonstration
+  photos:
+    - photo: ./assets/AMP/AMP_Group.png
+      photo_title: AMP Group Picture
+      photo_type: card card-big
+    - photo: ./assets/AMP/AMP_Kart.jpg
+      photo_title: AMP Go-Kart Picture
+      photo_type: card card-wide
+    - photo: ./assets/AMP/AMP_PCB.png
+      photo_title: AMP PCB Picture
+      photo_type: card card
+- layout: top-middle
   name: High Speed Force Sensor Datalogger
   # link: https://github.com/MArndt26/PNG_Datalogger
   github: MArndt26/PNG_Datalogger
@@ -37,9 +71,6 @@
     - photo: ./assets/png_datalogger/test_setup.jpg
       photo_title: test here for the description
       photo_type: card card-wide
-  # videos:
-  #   - video: https://www.youtube.com/embed/CATtHCXGsZI
-  #     video_title: AMP Electrical Full Integration
 
 - layout: top-middle
   name: AMP Jetson Serial Simulator
@@ -57,41 +88,6 @@
   videos:
     - video: https://www.youtube.com/embed/daYhBjnEbTU
       video_title: AMP Jetson Serial Simulator Demonstration
-
-- layout: top-middle
-  name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
-  # link: https://github.com/Autonomous-Motorsports-Purdue/AMP_MCUv1
-  github: Autonomous-Motorsports-Purdue/AMP_MCUv1
-  quote: >
-    Arduino based microntroller program for controlling low level electronics of autonomous go kart
-  description: | # this will include new lines to allow paragraphs
-    The purpose of this project is to implement a serial parsing microcontroller system to operate the steering,
-    throttle, and braking functionality of the Autonomous Motorsport Purdue (AMP) go-kart. Autonomous racing has
-    grown in popularity as more teams work to solve the unique problem of autonomous decision making at very high
-    speeds.  Our sub-team is working with the low-level electrical hardware on our modified go-kart, mainly focusing
-    on parsing data from the onboard computer and distributing signals to other electronics such as the motor controller,
-    linear actuator, and servos. To do this, the microcontroller receives custom serial packets from the go kart’s
-    computer to enable and then control the steering angle, throttle intensity, and brake position. The steering angle
-    is set with a pulse width modulated (PWM) signal from the microcontroller.  The throttle is controlled via the digital
-    to analog converter (DAC) and the braking is set via digital signals. To reduce processing time the serial structure
-    was designed to use byte long data instead of floating-point values because the microcontroller does not have dedicated
-    floating-point hardware. Furthermore, we implemented various error handling methods for packet transmission such as
-    cyclic redundancy check. This project is currently in its initial testing phase. We are testing the integration of our
-    subsystems by controlling the serial input using a custom javascript-based simulator. The ultimate goal of this project
-    is to have a fully autonomous go-kart that can navigate any track environment at the maximum speed possible.
-  videos:
-    - video: https://www.youtube.com/embed/CATtHCXGsZI
-      video_title: AMP Electrical Full Integration Demonstration
-  photos:
-    - photo: ./assets/AMP/AMP_Group.png
-      photo_title: AMP Group Picture
-      photo_type: card card-big
-    - photo: ./assets/AMP/AMP_Kart.jpg
-      photo_title: AMP Go-Kart Picture
-      photo_type: card card-wide
-    - photo: ./assets/AMP/AMP_PCB.png
-      photo_title: AMP PCB Picture
-      photo_type: card card
 
 - layout: top-middle
   name: E3 Auto Adheasive Dispenser
