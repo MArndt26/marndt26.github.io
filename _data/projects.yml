@@ -7,16 +7,16 @@
     Datalogger for PNG Research using the Teensy 4.1 development board
   description: | # this will include new lines to allow paragraphs
     Purdue Neurological Group (PNG) is involved in many different research projects, one of which involves measuring the 
-    effects of head trama in athletics. More specifically, football helmet collisions. The goal of the project in reguards 
+    effects of head trauma in athletics. More specifically, football helmet collisions. The goal of the project in regards 
     to this repository is to design and implement high-speed data collection circuitry to measure the forces that take place 
     during one of these football impacts (tackles). "Data collection circuitry" refers to the following:
       * A microcontroller to read in analog inputs through an ADC
-      * Variable resistance strain guages to measure forces
+      * Variable resistance strain gauges to measure forces
       * Analog multiplexers to route 6 different signals into the microcontroller
-      * Differential amplifier / wheatstone bridge to convert the sensor resistance changes into changes in voltage.
+      * Differential amplifier / Wheatstone bridge to convert the sensor resistance changes into changes in voltage.
       * SD card to record the data
 
-    My contribution to this effort involves designing and programing the force collecting circuitry.  There is a long history
+    My contribution to this effort involves designing and programming the force collecting circuitry.  There is a long history
     for this project that can be seen [here](https://github.com/MArndt26/PNG_Datalogger#project-history).
   photos:
     - photo: ./assets/png_datalogger/helmet_setup.jpg
@@ -48,7 +48,7 @@
   quote: >
     Electron based serial simulator for testing serial communication between the Jetson and Arduino MCU.
   description: | # this will include new lines to allow paragraphs
-    This Project is used to interface with the microcontroller for the Autonomous Motorsport Purdue go kart. A key issue 
+    This Project is used to interface with the microcontroller for the Autonomous Motorsport Purdue go-kart. A key issue 
     for the AMP team is the allocation of resources between the subteams.  Due to the tight integration
     of our systems, both Electrical and Software sub-teams require access to the kart's main computer (Nvidia Jetson)
     and the electrical controller (Arduino MCU) for development/debugging tasks.  To solve this issue, I created 
@@ -82,6 +82,16 @@
   videos:
     - video: https://www.youtube.com/embed/CATtHCXGsZI
       video_title: AMP Electrical Full Integration Demonstration
+  photos:
+    - photo: ./assets/AMP/AMP_Group.png
+      photo_title: AMP Group Picture
+      photo_type: card card-big
+    - photo: ./assets/AMP/AMP_Kart.jpg
+      photo_title: AMP Go-Kart Picture
+      photo_type: card card-wide
+    - photo: ./assets/AMP/AMP_PCB.png
+      photo_title: AMP PCB Picture
+      photo_type: card card
 
 - layout: top-middle
   name: E3 Auto Adheasive Dispenser
