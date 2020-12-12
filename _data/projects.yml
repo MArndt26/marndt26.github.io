@@ -100,6 +100,16 @@
     The system shows the main content through an LCD display controlled through SPI communication with the microcontroller.
     There is also an additional 7 segment display to update the user's score.  Finally, game music (the Tetris Theme Song)
     is output to the user by passing a variable duty cycle PWM signal through a hardware low pass filter.
+  photos:
+    - photo: ./assets/Flappy/full_board.jpg
+      photo_title: box external
+      photo_type: card card-big
+    - photo: ./assets/Flappy/screen.jpg
+      photo_title: box internal
+      photo_type: card card-tall
+    - photo: ./assets/Flappy/score.jpg
+      photo_title: Adheasive Pump
+      photo_type: card
 
 - layout: top-middle
   name: E3 Auto Adheasive Dispenser
@@ -113,3 +123,14 @@
     One of these processes involves using precise amounts of adhesive for bonding displays to cover glass.  In the past,
     this has been a manual process, requiring operators to spend large amounts of time preparing the adhesive for the bonding
     process.  This project automates this by bundling all the prep work into one location, controlled electronically.
+
+  photos:
+    - photo: ./assets/E3/box_external.jpg
+      photo_title: box external
+      photo_type: card
+    - photo: ./assets/E3/box_internal.jpg
+      photo_title: box internal
+      photo_type: card card-big
+    - photo: ./assets/E3/pump.jpg
+      photo_title: Adheasive Pump
+      photo_type: card card-tall
