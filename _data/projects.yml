@@ -110,6 +110,9 @@
     - photo: ./assets/Flappy/score.jpg
       photo_title: Adheasive Pump
       photo_type: card
+  videos:
+    - video: https://www.youtube.com/embed/S5TemZ1Fc4k
+      video_title: Flappy Bird Game Console Demonstration
 
 - layout: top-middle
   name: E3 Auto Adheasive Dispenser
