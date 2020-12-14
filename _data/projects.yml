@@ -41,7 +41,7 @@
     Datalogger for PNG Research using the Teensy 4.1 development board
   description: | # this will include new lines to allow paragraphs
     Purdue Neurological Group (PNG) is involved in many different research projects, one of which involves measuring the 
-    effects of head trauma in athletics. More specifically, football helmet collisions. The goal of the project in regards 
+    effects of head trauma in athletes. More specifically, football helmet collisions. The goal of the project in regards 
     to this repository is to design and implement high-speed data collection circuitry to measure the forces that take place 
     during one of these football impacts (tackles). "Data collection circuitry" refers to the following:
       * A microcontroller to read in analog inputs through an ADC
