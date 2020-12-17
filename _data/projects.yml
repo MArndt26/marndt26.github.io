@@ -33,6 +33,9 @@
     - photo: ./assets/AMP/AMP_PCB.png
       photo_title: AMP PCB Picture
       photo_type: card card
+    - photo: ./assets/AMP/AMP_Expo_Certificate.png
+      photo_title: AMP PCB Picture
+      photo_type: card card
 - layout: top-middle
   name: High Speed Force Sensor Datalogger
   # link: https://github.com/MArndt26/PNG_Datalogger
