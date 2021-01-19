@@ -118,11 +118,11 @@
       video_title: Flappy Bird Game Console Demonstration
 
 - layout: top-middle
-  name: E3 Auto Adheasive Dispenser
+  name: E3 Auto Adhesive Dispenser
   # link: https://github.com/MArndt26/E3-Auto-Dispenser
   github: MArndt26/E3-Auto-Dispenser
   quote: >
-    Automated Control System for Display Adheasive Dispenser
+    Automated Control System for Display Adhesive Dispenser
   description: | # this will include new lines to allow paragraphs
     This Project is used to create a control pad and scale to dispense adhesive until a weight limit is reached.
     E3 Displays uses various manufacturing processes when fabricating the customized display stacks for its customers.
@@ -137,5 +137,11 @@
       photo_title: box internal
       photo_type: card card-big
     - photo: ./assets/E3/pump.jpg
-      photo_title: Adheasive Pump
+      photo_title: Adhesive Pump
       photo_type: card card-tall
+
+  videos:
+    - video: https://www.youtube.com/embed/TZbIzYgnOPE
+      video_title: E3 Adhesive Dispenser Demo
+
+      
