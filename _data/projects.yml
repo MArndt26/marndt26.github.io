@@ -1,7 +1,7 @@
 # Project template
 - layout: top-middle
   name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
-  # link: https://github.com/Autonomous-Motorsports-Purdue/AMP_MCUv1
+  link: https://web.ics.purdue.edu/~elgamala/AMP-VIP/index.html
   github: Autonomous-Motorsports-Purdue/AMP_MCUv1
   quote: >
     Arduino based microntroller program for controlling low level electronics of autonomous go kart
