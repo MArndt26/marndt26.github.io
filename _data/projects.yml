@@ -74,6 +74,31 @@
     - photo: ./assets/png_datalogger/test_setup.jpg
       photo_title: test here for the description
       photo_type: card card-wide
+- layout: top-middle
+  name: Harmonize
+  # link: https://github.com/MArndt26/PNG_Datalogger
+  github: MArndt26/Harmonize
+  quote: >
+    Social media application aimed at connecting individuals with similar musical interests
+  description: | # this will include new lines to allow paragraphs
+    In the era of COVID and distance friendships, people need a method of connecting with individuals musically. 
+    Even in the absence of COVID, it is difficult to meet people with similar music tastes willing to attend a 
+    concert together.  With Matchify users will be able to easily connect with people and explore their music tastes. 
+    Unlike the vanilla services provided by Spotify, this will allow users to share their personal music style with 
+    the world and foster new friendships along the way.  Harmonize is a one-stop-shop for online music socialization.
+  photos:
+    - photo: ./assets/Harmonize/navbar.png
+      photo_title: User Homepage
+      photo_type: card card-tall
+    - photo: ./assets/Harmonize/user_homepage.png
+      photo_title: User Homepage
+      photo_type: card card-big
+    - photo: ./assets/Harmonize/recommendation_dashboard.png
+      photo_title: User Homepage
+      photo_type: card card-big
+    - photo: ./assets/Harmonize/messages_page.png
+      photo_title: User Homepage
+      photo_type: card card-tall
 
 - layout: top-middle
   name: AMP Jetson Serial Simulator
@@ -83,7 +108,7 @@
     Electron based serial simulator for testing serial communication between the Jetson and Arduino MCU.
   description: | # this will include new lines to allow paragraphs
     This Project is used to interface with the microcontroller for the Autonomous Motorsport Purdue go-kart. A key issue 
-    for the AMP team is the allocation of resources between the subteams.  Due to the tight integration
+    for the AMP team is the allocation of resources between the sub-teams.  Due to the tight integration
     of our systems, both Electrical and Software sub-teams require access to the kart's main computer (Nvidia Jetson)
     and the electrical controller (Arduino MCU) for development/debugging tasks.  To solve this issue, I created 
     this Jetson Serial Simulator program.  This software takes the place of the Jetson which allows for full electrical
@@ -99,7 +124,7 @@
   quote: >
     Microcontroller Controlled Flappy Bird Game Console
   description: | # this will include new lines to allow paragraphs
-    This project used multiple periferal systsems of a STM32 microcontroller to recreate the infamous flappy bird game.
+    This project used multiple peripheral systems of a STM32 microcontroller to recreate the infamous flappy bird game.
     The system shows the main content through an LCD display controlled through SPI communication with the microcontroller.
     There is also an additional 7 segment display to update the user's score.  Finally, game music (the Tetris Theme Song)
     is output to the user by passing a variable duty cycle PWM signal through a hardware low pass filter.
@@ -143,5 +168,3 @@
   videos:
     - video: https://www.youtube.com/embed/TZbIzYgnOPE
       video_title: E3 Adhesive Dispenser Demo
-
-      

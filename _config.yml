@@ -4,7 +4,7 @@ repository: https://github.com/MArndt26/marndt26.github.io
 
 # Personal info
 name: Mitchell Arndt
-title: Purdue Honors Electical Engineering
+title: Purdue Honors Electrical Engineering
 email: MitchAArndt@gmail.com
 # phone: phone number
 # website: Your website (eg. https://google.com)(optional)
@@ -46,10 +46,10 @@ linkedin_username: mitch-arndt-383968165
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: ./assets/profile.jpeg
+about_profile_image: ./assets/headshot_final.png
 about_content: | # this will include new lines to allow paragraphs
   I am an undergraduate student at <mark>Purdue University</mark> studying <mark>Electrical Engineering</mark> with a minor in Computer Science.  
-  I am intensly curious about ASIC design and embedded system development.  I have had experience in microcontroller developement accross multiple
+  I am intensely curious about ASIC design and embedded system development.  I have had experience in microcontroller development across multiple
   systems including <mark>Arduino</mark>, <mark>STM32</mark>, <mark>Teensy</mark>.
 
   I enjoy programming clean and intuitive applications for assisting in engineering projects, solving business problems, and sometimes just for fun!
