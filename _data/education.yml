@@ -3,10 +3,10 @@
   name: Purdue University
   dates: Class of 2022
   qualification: |
-    BS Electrical Engineering - Honors College
-    Computer Science Minor
-    Certificate of Entrepreneurship and Innovation
+    West Lafayette, IN
   # quote: >
   #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    GPA: 3.97
+    <mark><strong>GPA: 3.97</strong></mark>
+    - Minor in Computer Science
+    - Certificate of Entrepreneurship and Innovation
