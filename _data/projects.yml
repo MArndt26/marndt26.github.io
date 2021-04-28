@@ -103,7 +103,7 @@
 - layout: top-middle
   name: AMP Jetson Serial Simulator
   # link: https://github.com/Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
-  github: https://github.com/Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
+  github: Autonomous-Motorsports-Purdue/AMP-Jetson-Serial-Sim
   quote: >
     Electron based serial simulator for testing serial communication between the Jetson and Arduino MCU.
   description: | # this will include new lines to allow paragraphs
