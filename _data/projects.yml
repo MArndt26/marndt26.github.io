@@ -21,8 +21,8 @@
     subsystems by controlling the serial input using a custom javascript-based simulator. The ultimate goal of this project
     is to have a fully autonomous go-kart that can navigate any track environment at the maximum speed possible.
   videos:
-    - video: https://www.youtube.com/embed/CATtHCXGsZI
-      video_title: AMP Electrical Full Integration Demonstration
+    - id: CATtHCXGsZI
+      title: AMP Electrical Full Integration Demonstration
   photos:
     - photo: ./assets/AMP/AMP_Group.png
       photo_title: AMP Group Picture
@@ -114,8 +114,8 @@
     this Jetson Serial Simulator program.  This software takes the place of the Jetson which allows for full electrical
     integration testing, without the need to schedule time with the physical Jetson computer.
   videos:
-    - video: https://www.youtube.com/embed/daYhBjnEbTU
-      video_title: AMP Jetson Serial Simulator Demonstration
+    - id: daYhBjnEbTU
+      title: AMP Jetson Serial Simulator Demonstration
 
 - layout: top-middle
   name: Microcontroller Retro Game Console
@@ -139,8 +139,8 @@
       photo_title: Adheasive Pump
       photo_type: card
   videos:
-    - video: https://www.youtube.com/embed/S5TemZ1Fc4k
-      video_title: Flappy Bird Game Console Demonstration
+    - id: S5TemZ1Fc4k
+      title: Flappy Bird Game Console Demonstration
 
 - layout: top-middle
   name: E3 Auto Adhesive Dispenser
@@ -166,5 +166,5 @@
       photo_type: card card-tall
 
   videos:
-    - video: https://www.youtube.com/embed/TZbIzYgnOPE
-      video_title: E3 Adhesive Dispenser Demo
+    - id: TZbIzYgnOPE
+      title: E3 Adhesive Dispenser Demo
