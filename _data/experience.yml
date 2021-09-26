@@ -22,6 +22,15 @@
     * Programmed microcontroller to collect 60 channel analog data with a 1kHz sampling rate and write to SD card
 
 - layout: left
+  company: Northrop Grumman
+  link: https://www.northropgrumman.com/
+  job_title: Electrical Engineering Intern in Launch Vehicles Division
+  dates: June 2021 – August 2021
+  # quote: >
+  description: | # this will include new lines to allow paragraphs
+    * Designed graphical RSS Error Budget Analysis Tool for analog avionics sensors
+
+- layout: left
   company: E3 Displays
   link: https://www.e3displays.com/
   job_title: Electrical Engineering Intern
