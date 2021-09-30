@@ -46,15 +46,15 @@ linkedin_username: mitch-arndt-383968165
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: ./assets/headshot_final.png
+about_profile_image: https://gravatar.com/avatar/381510daba793a32d294422fa36c180c?s=200&d=retro
 about_content: | # this will include new lines to allow paragraphs
   I am an undergraduate student at <mark>Purdue University</mark> studying <mark>Electrical Engineering</mark> with a minor in Computer Science.  
   I am intensely curious about ASIC design and embedded system development.  I have had experience in microcontroller development across multiple
-  systems including <mark>Arduino</mark>, <mark>STM32</mark>, <mark>Teensy</mark>.
+  systems including <mark>ESP32</mark>, <mark>Arduino</mark>, <mark>STM32</mark>, <mark>Teensy</mark>.
 
   I enjoy programming clean and intuitive applications for assisting in engineering projects, solving business problems, and sometimes just for fun!
-  I have worked with many different languages including: <mark>Java</mark>, <mark>JavaFX</mark>, <mark>C</mark>, <mark>C++</mark>, <mark>Nodejs</mark>, 
-  <mark>Javascript</mark>, <mark>Arduino</mark>, <mark>Python</mark>, <mark>MatLab</mark>.
+  I have worked with many different languages including: <mark>C</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>JavaFX</mark>, 
+  <mark>Nodejs</mark>, <mark>Javascript</mark>, <mark>Arduino</mark>, <mark>Python</mark>, <mark>MatLab</mark>.
 
   To assist in my electrical projects I use many engineering tools such as <mark>System Verilog</mark>, <mark>Git/GitHub</mark>, <mark>KiCad</mark>, 
   <mark>STM CubeMX</mark>, <mark>LTspice</mark>, <mark>QuestaSim</mark>, <mark>Design Compiler</mark>.

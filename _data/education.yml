@@ -1,12 +1,22 @@
 # Education Template
 - layout: left
   name: Purdue University
-  dates: Class of 2022
+  dates: Class of Fall 2021
   qualification: |
     West Lafayette, IN
   # quote: >
   #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     <mark><strong>GPA: 3.95</strong></mark>
+    Bachelor of Science in Electrical Engineering - Honors College
     - Minor in Computer Science
     - Certificate of Entrepreneurship and Innovation
+- layout: left
+  name: Purdue University
+  dates: Class of Fall 2022
+  qualification: |
+    West Lafayette, IN
+  # quote: >
+  #   Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Master of Science in Computer Architecture

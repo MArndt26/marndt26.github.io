@@ -7,9 +7,9 @@
   # quote: >
 
   description: | # this will include new lines to allow paragraphs
-    * Designed self-driving race car to compete at the Indy 500
-    * Created custom PCB using KiCad to route control signals from TI microprocessor to servo motors
-    * Designed C code on microcontroller to interpret serial commands and output digital and analog control signals
+    *	Designed self-driving race car to autonomously navigate the track at high speeds
+    * Created custom PCB using KiCad to route control signals from microcontroller to electrical subsystems
+    * Designed C code on microcontroller to interpret serial commands and output analog and digital control signals
 
 - layout: left
   company: Purdue Neurotrauma Group
@@ -19,7 +19,7 @@
   # quote: >
   description: | # this will include new lines to allow paragraphs
     * Designed data collection circuitry for measuring the forces of a football tackle
-    * Programmed microcontroller to collect 60 channel analog data with a 1kHz sampling rate and write to SD card
+    * Programmed microcontroller to collect 120 analog channels at a 1kHz sampling rate and write data to SD card
 
 - layout: left
   company: Northrop Grumman
@@ -28,7 +28,7 @@
   dates: June 2021 – August 2021
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    * Designed graphical RSS Error Budget Analysis Tool for analog avionics sensors
+    * Designed graphical RSS Error Budget Analysis Tool for analog avionics sensors using Python and JavaScript
 
 - layout: left
   company: E3 Displays
@@ -38,17 +38,22 @@
   # quote: >
   description: | # this will include new lines to allow paragraphs
     * Designed and implemented ventilator touch display manufacturing test bench
-    * Designed automated display adhesive dispenser user control box using an Arduino Microcontroller
+    * Designed embedded system to automate adhesive dispensing with precise mass and temperature
 
 - layout: left
   company: Card Connect
   # link: https://www.fdisp.com/?_vsrefdom=p.6790&gclid=CjwKCAiA4o79BRBvEiwAjteoYNuGQHDeiadb6UNWQ-vjsHUAdx1IHpWBeqEz0lH4uCZGhFlUMnmzFRoCnUUQAvD_BwE
-  job_title: Software Development Intern
+  job_title: |
+    Current Software Consultant / 
+    Software Development Intern
   dates: May 2019 – Present
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    *	Automated payroll system using JavaFX to streamline the employee payment process
-    *	Developed program to analyze Google AdWords for efficient pay per click lead bidding
+    * Current Software Consultant
+      * Produce new business management applications based on growing and changing needs
+    * Software Development Intern
+      * Automated payroll system using JavaFX to streamline the employee payroll process
+      * Developed program to analyze Google AdWords for efficient pay-per-click lead bidding
 
 - layout: left
   company: First Data Independent Sales
