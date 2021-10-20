@@ -56,24 +56,18 @@
     My contribution to this effort involves designing and programming the force collecting circuitry.  There is a long history
     for this project that can be seen [here](https://github.com/MArndt26/PNG_Datalogger#project-history).
   photos:
-    - photo: ./assets/png_datalogger/helmet_setup.jpg
-      photo_title: test here for the description
-      photo_type: card card-wide
     - photo: ./assets/png_datalogger/helmet_closeup.jpg
-      photo_title: test here for the description
       photo_type: card
     - photo: ./assets/png_datalogger/bend_device.jpg
-      photo_title: test here for the description
       photo_type: card
     - photo: ./assets/png_datalogger/breadboard.jpg
-      photo_title: test here for the description
       photo_type: card card-big
-    - photo: ./assets/png_datalogger/strain_gaug_plot.jpg
-      photo_title: test here for the description
-      photo_type: card card-wide
-    - photo: ./assets/png_datalogger/test_setup.jpg
-      photo_title: test here for the description
-      photo_type: card card-wide
+    - photo: ./assets/png_datalogger/helmet_setup.jpg
+      photo_type: card card-big
+    - photo: ./assets/png_datalogger/strain_gauge_plot.jpg
+      photo_type: card
+    - photo: ./assets/png_datalogger/Data_Processed.jpg
+      photo_type: card
 - layout: top-middle
   name: Harmonize
   # link: https://github.com/MArndt26/PNG_Datalogger
