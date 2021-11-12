@@ -31,6 +31,29 @@
       photo_type: card card-wide
 
 - layout: top-middle
+  name: Dual Core Microprocessor Design
+  quote: >
+    Pipelined Dual Core with Instruction, Data Cache, and Branch Prediction through BTB
+  description: | # this will include new lines to allow paragraphs
+    This project is the result of an iterative design laboratory at Purdue University aimed at designing a microprocessor for the MIPS Instruction Set using System Verilog.  The design started with a basic single cycle datapath.  Following this, the datapath was split into Fetch, Decode, Execute, Memory, and Writeback stages for a simplified single core pipelined processor.  From there, the following upgrades where added to the design: Hazard Detection, Forwarding, Memory Arbitration, Caching with a 2 way set associative data cache with LRU replacement and a direct mapped instruction cache, Branch Prediction using a Branch Table Buffer with 2-bit entries.  At this point, the design branched from a single core to a multiprocessor with two identical cores.  The coherency model was based on the MSI protocol with slight alterations such as cache to cache transfer for better memory access times.  Furthermore, the multicore datapath was modified to include atomic Load-Linked and Store-Conditional operations.  Additionally, parallel assembly code was written to test this system against a MIPS simulator against various algorithms such as MergeSort, Fibonacci, Multiplication through repeated Additions, and thread safe acquire/release lock operations.
+  photos:
+    - photo: ./assets/ECE437/System_Block_Diagram.png
+      photo_title: System Block Diagram
+      photo_type: card card-big
+    - photo: ./assets/ECE437/Datapath.png
+      photo_title: Datapath
+      photo_type: card
+    - photo: ./assets/ECE437/D_Cache.png
+      photo_title: Data Cache
+      photo_type: card
+    - photo: ./assets/ECE437/I_Cache.png
+      photo_title: Instruction Cache
+      photo_type: card
+    - photo: ./assets/ECE437/BusTransitions.png
+      photo_title: Bus Controller State Transitions
+      photo_type: card
+
+- layout: top-middle
   name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
   link: https://web.ics.purdue.edu/~elgamala/AMP-VIP
   github: Autonomous-Motorsports-Purdue/AMP_MCUv1
