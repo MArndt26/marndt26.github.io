@@ -48,7 +48,7 @@ gtag: "G-2PSY2YPYB7"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://gravatar.com/avatar/381510daba793a32d294422fa36c180c?s=200&d=retro
 about_content: | # this will include new lines to allow paragraphs
-  I am an undergraduate student at <mark>Purdue University</mark> studying <mark>Electrical Engineering</mark> with a minor in Computer Science.  
+  I am a student in <mark>Purdue University's</mark> 4+1 Graduate Program studying <mark>Electrical Engineering</mark> with a minor in Computer Science and a Certificate of Entrepreneurship and Innovation.
   I am intensely curious about ASIC design and embedded system development.  I have had experience in microcontroller development across multiple
   systems including <mark>ESP32</mark>, <mark>Arduino</mark>, <mark>STM32</mark>, <mark>Teensy</mark>.
 
