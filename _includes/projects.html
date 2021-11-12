@@ -8,7 +8,9 @@
 			{% endif %}
 			<div class="photo-grid">
 				{% for photo in project.photos %}
-					<div class="{{ photo.photo_type }}" style="background-image: url('{{ photo.photo }}')"></div>
+				<a href="{{photo.photo}}" class="{{ photo.photo_type }}" >					
+					<div class="{{ photo.photo_type }}" style="background-image: url('{{ photo.photo }}')" href="google.com"></div>
+				</a>
 				{% endfor %}
 
 			</div>
