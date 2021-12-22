@@ -7,7 +7,7 @@
   # quote: >
   #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    <mark><strong>GPA: 3.95</strong></mark>
+    <mark><strong>GPA: 3.96</strong></mark>
     Bachelor of Science in Electrical Engineering - Honors College
     - Minor in Computer Science
     - Certificate of Entrepreneurship and Innovation
@@ -19,4 +19,5 @@
   # quote: >
   #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
+    <mark><strong>GPA: 3.73</strong></mark>
     Master of Science in Computer Architecture
