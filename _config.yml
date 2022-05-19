@@ -48,8 +48,8 @@ gtag: "G-2PSY2YPYB7"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://gravatar.com/avatar/381510daba793a32d294422fa36c180c?s=200&d=retro
 about_content: | # this will include new lines to allow paragraphs
-  I am a Masters student at <mark>Purdue University's</mark> studying <mark>Electrical Engineering</mark> with a focus in Computer Architecture.
-  I am intensely curious about ASIC design and embedded system development.  I have had experience in <mark>UVM</mark> verification of a two-stage cache hierarchy as well as microcontroller development across multiple
+  I am a Masters student at <mark>Purdue University</mark> studying <mark>Electrical Engineering</mark> with a focus in Computer Architecture.
+  I am intensely curious about ASIC design and embedded system development.  I have experience in <mark>UVM</mark> verification of a two-stage cache hierarchy as well as microcontroller development across multiple
   systems including <mark>ESP32</mark>, <mark>Arduino</mark>, <mark>STM32</mark>, <mark>Teensy</mark>.
 
   I enjoy programming clean and intuitive applications for assisting in engineering projects, solving business problems, and sometimes just for fun!
