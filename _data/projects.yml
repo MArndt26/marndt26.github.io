@@ -1,5 +1,47 @@
 # Project template
 - layout: top-middle
+  name: UVM Caches
+  link: https://github.com/Purdue-SoCET/RISCVBusiness/tree/Caches/verification/uvm/caches
+  # github: RISCVBusiness
+  quote: >
+    UVM Verification for Two-Stage Cache Hierarchy of RISCV Processor
+  description: | # this will include new lines to allow paragraphs
+    The purpose of the Cache UVM Testbench project was to create a modular, reusable framework of testing components for the memory hierarchy for Purdue SoCET's RISCV Processor core.  The main parts of the testbench can be split into the following components: Bus Agent, Bus Scoreboard/Predictor, and End2End Checker.  The Bus Agent provides the core interfacing logic to communicate abstract cpu-transactions to the memory hierarchy.  This involves reads, writes, and flush operations.  The Bus Agent is extended to create a CPU Agent that drives these processor transactions to stress the various features of the RTL design.  The Bus Scoreboard and Predictor pair to check the input side of any memory device (L1 cache, L2 cache, memory BFM).  The End2End Checker ensures the proper translation of transactions as they propagate throughout the memory hierarchy. 
+  photos:
+    - photo: ./assets/SoCET/L2-Presentation-Top.png
+      photo_title: L2 Top Level Diagram
+      photo_type: card card-big
+    - photo: ./assets/SoCET/L2_UVM.png
+      photo_title: L2 UVM
+      photo_type: card card-wide
+    - photo: ./assets/SoCET/Multicore_UVM.png
+      photo_title: Multicore UVM
+      photo_type: card card-wide
+
+- layout: top-middle
+  name: Dual Core Microprocessor Design
+  quote: >
+    Pipelined Dual Core with Instruction, Data Cache, and Branch Prediction through BTB
+  description: | # this will include new lines to allow paragraphs
+    This project is the result of an iterative design laboratory at Purdue University aimed at designing a microprocessor for the MIPS Instruction Set using System Verilog.  The design started with a basic single cycle datapath.  Following this, the datapath was split into Fetch, Decode, Execute, Memory, and Writeback stages for a simplified single core pipelined processor.  From there, the following upgrades where added to the design: Hazard Detection, Forwarding, Memory Arbitration, Caching with a 2 way set associative data cache with LRU replacement and a direct mapped instruction cache, Branch Prediction using a Branch Table Buffer with 2-bit entries.  At this point, the design branched from a single core to a multiprocessor with two identical cores.  The coherency model was based on the MSI protocol with slight alterations such as cache to cache transfer for better memory access times.  Furthermore, the multicore datapath was modified to include atomic Load-Linked and Store-Conditional operations.  Additionally, parallel assembly code was written to test this system against a MIPS simulator against various algorithms such as MergeSort, Fibonacci, Multiplication through repeated Additions, and thread safe acquire/release lock operations.
+  photos:
+    - photo: ./assets/ECE437/System_Block_Diagram.png
+      photo_title: System Block Diagram
+      photo_type: card card-big
+    - photo: ./assets/ECE437/Datapath.png
+      photo_title: Datapath
+      photo_type: card
+    - photo: ./assets/ECE437/D_Cache.png
+      photo_title: Data Cache
+      photo_type: card
+    - photo: ./assets/ECE437/I_Cache.png
+      photo_title: Instruction Cache
+      photo_type: card
+    - photo: ./assets/ECE437/BusTransitions.png
+      photo_title: Bus Controller State Transitions
+      photo_type: card
+
+- layout: top-middle
   name: Sink or be Sunk Embedded Senior Design Project
   link: https://engineering.purdue.edu/477grp8
   github: Sink-or-be-Sunk
@@ -32,29 +74,6 @@
     - photo: ./assets/Sink-or-be-Sunk/cadBoat.jpeg
       photo_title: Boat CAD Model
       photo_type: card card-wide
-
-- layout: top-middle
-  name: Dual Core Microprocessor Design
-  quote: >
-    Pipelined Dual Core with Instruction, Data Cache, and Branch Prediction through BTB
-  description: | # this will include new lines to allow paragraphs
-    This project is the result of an iterative design laboratory at Purdue University aimed at designing a microprocessor for the MIPS Instruction Set using System Verilog.  The design started with a basic single cycle datapath.  Following this, the datapath was split into Fetch, Decode, Execute, Memory, and Writeback stages for a simplified single core pipelined processor.  From there, the following upgrades where added to the design: Hazard Detection, Forwarding, Memory Arbitration, Caching with a 2 way set associative data cache with LRU replacement and a direct mapped instruction cache, Branch Prediction using a Branch Table Buffer with 2-bit entries.  At this point, the design branched from a single core to a multiprocessor with two identical cores.  The coherency model was based on the MSI protocol with slight alterations such as cache to cache transfer for better memory access times.  Furthermore, the multicore datapath was modified to include atomic Load-Linked and Store-Conditional operations.  Additionally, parallel assembly code was written to test this system against a MIPS simulator against various algorithms such as MergeSort, Fibonacci, Multiplication through repeated Additions, and thread safe acquire/release lock operations.
-  photos:
-    - photo: ./assets/ECE437/System_Block_Diagram.png
-      photo_title: System Block Diagram
-      photo_type: card card-big
-    - photo: ./assets/ECE437/Datapath.png
-      photo_title: Datapath
-      photo_type: card
-    - photo: ./assets/ECE437/D_Cache.png
-      photo_title: Data Cache
-      photo_type: card
-    - photo: ./assets/ECE437/I_Cache.png
-      photo_title: Instruction Cache
-      photo_type: card
-    - photo: ./assets/ECE437/BusTransitions.png
-      photo_title: Bus Controller State Transitions
-      photo_type: card
 
 - layout: top-middle
   name: Hardware Control with Serial Parsing Microcontroller for Autonomous Racing
