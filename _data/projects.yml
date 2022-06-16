@@ -6,7 +6,7 @@
   quote: >
     UVM Verification for Two-Stage Cache Hierarchy of RISCV Processor
   description: | # this will include new lines to allow paragraphs
-    The purpose of the Cache UVM Testbench project was to create a modular, reusable framework of testing components for the memory hierarchy for Purdue SoCET's RISCV Processor core.  The main parts of the testbench can be split into the following components: Bus Agent, Bus Scoreboard/Predictor, and End2End Checker.  The Bus Agent provides the core interfacing logic to communicate abstract cpu-transactions to the memory hierarchy.  This involves reads, writes, and flush operations.  The Bus Agent is extended to create a CPU Agent that drives these processor transactions to stress the various features of the RTL design.  The Bus Scoreboard and Predictor pair to check the input side of any memory device (L1 cache, L2 cache, memory BFM).  The End2End Checker ensures the proper translation of transactions as they propagate throughout the memory hierarchy. 
+    The purpose of the Cache UVM Testbench project was to create a modular, reusable framework of testing components for the memory hierarchy for Purdue SoCET's RISCV Processor core.  The main parts of the testbench can be split into the following components: Bus Agent, Bus Scoreboard/Predictor, and End2End Checker.  The Bus Agent provides the core interfacing logic to communicate abstract cpu-transactions to the memory hierarchy.  This involves reads, writes, and flush operations.  The Bus Agent is extended to create a CPU Agent that drives these processor transactions to stress the various features of the RTL design.  The Bus Scoreboard and Predictor pair to check the input side of any memory device (L1 cache, L2 cache, memory BFM).  The End2End Checker ensures the proper translation of transactions as they propagate throughout the memory hierarchy.
   photos:
     - photo: ./assets/SoCET/L2-Presentation-Top.png
       photo_title: L2 Top Level Diagram
@@ -43,7 +43,7 @@
 
 - layout: top-middle
   name: Sink or be Sunk Embedded Senior Design Project
-  link: https://engineering.purdue.edu/477grp8
+  link: https://sink-or-be-sunk.github.io/Team_Website/
   github: Sink-or-be-Sunk
   quote: >
     A WiFi Connected, electronic twist on the classic Battleship game

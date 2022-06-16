@@ -74,9 +74,8 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in electrical and software engineering some of my other hobbies are:
-  - Weight Lifting
   - Water and Snow Skiing
-  - Hunting
+  - Weight Lifting
   - Boating
   - Auto Racing
 
@@ -106,5 +105,5 @@ exclude:
     "lib/",
     "scripts/",
     "docker-compose.yml",
-    "Makefile"
+    "Makefile",
   ]
