@@ -72,9 +72,9 @@ export const PhotoGallery = ({ photos }: PhotoGalleryProps) => {
             return (
               <Link key={i} href={`/img/${photo.href}`}>
                 <div
-                  //TODO: CONVERT THIS TO NEXTJS IMAGE
                   className={`cursor-pointer card card-${photo.type}`}
-                  style={{ backgroundImage: `url('/img/${photo.href}')` }}
+                  // background image style is basically a lazy load
+                  // style={{ backgroundImage: `url('/img/${photo.href}')` }}
                 ></div>
               </Link>
             );
@@ -96,7 +96,7 @@ export const Youtube = ({ data }: YoutubeProps) => {
     return (
       <div className="video">
         <iframe
-          src={`https://www.youtube.com/embed/${data.id}`}
+          // src={`https://www.youtube.com/embed/${data.id}`}
           allowFullScreen
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
