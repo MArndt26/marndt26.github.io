@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}

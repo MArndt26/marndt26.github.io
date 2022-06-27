@@ -1,0 +1,50 @@
+import { Item, Paragraph, Section } from '@content/content_types';
+import { Header, PhotoGallery, TextParser, Youtube } from '@components/Layout';
+import { projects_content } from '@content/projects/index';
+
+import { GitHubButton } from './Buttons';
+
+interface Props {}
+
+export const Projects = ({}: Props) => {
+  return (
+    <div>
+      <Header>Projects</Header>
+      <div>
+        {projects_content.map((section, i) => {
+          return <Project key={i} data={section} />;
+        })}
+      </div>
+    </div>
+  );
+};
+
+export const Project = ({ data }: { data: Section }) => {
+  return (
+    <div className="py-8">
+      <h3 className="pb-1 text-2xl font-semibold text-gray-700">
+        {data.title}
+      </h3>
+
+      <GitHubButton link={data.options.github} />
+
+      {data.options.link ? (
+        <p className="mb-1">
+          <a
+            href={data.options.link}
+            className="text-sm italic font-thin text-gray-800 no-underline"
+            target="_blank"
+          >
+            {data.options.link}
+          </a>
+        </p>
+      ) : (
+        <></>
+      )}
+      <h4 className="pb-4 text-sm italic">{data.quote}</h4>
+      <TextParser className="text-justify" data={data.description} />
+      <PhotoGallery photos={data.options.photos} />
+      <Youtube data={data.options.video} />
+    </div>
+  );
+};

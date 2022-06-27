@@ -1,0 +1,38 @@
+@tailwind components;
+
+@layer components {
+  .card {
+    @apply relative flex flex-col items-center justify-center w-full h-full overflow-hidden duration-500 bg-center bg-no-repeat bg-cover shadow-lg rounded-2xl hover:scale-110 hover:shadow-2xl;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+    @apply grid gap-4;
+  }
+
+  .video {
+    padding-bottom: 56.25%;
+    @apply relative h-0 overflow-hidden rounded-lg;
+  }
+
+  .video iframe {
+    @apply absolute top-0 left-0 w-full h-full;
+  }
+}
+
+/* Medium screens */
+@media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+
+  .card-big {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+  }
+}
