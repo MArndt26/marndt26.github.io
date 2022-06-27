@@ -70,7 +70,7 @@ export const PhotoGallery = ({ photos }: PhotoGalleryProps) => {
         <div className="photo-grid">
           {photos.map((photo, i) => {
             return (
-              <Link href={`/img/${photo.href}`}>
+              <Link key={i} href={`/img/${photo.href}`}>
                 <div
                   //TODO: CONVERT THIS TO NEXTJS IMAGE
                   className={`cursor-pointer card card-${photo.type}`}
