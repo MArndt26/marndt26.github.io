@@ -9,7 +9,7 @@ export const Education = ({}: Props) => {
     <div>
       <Header>Education</Header>
       {education_content.map((school, i) => {
-        return <School school={school} />;
+        return <School key={i} school={school} />;
       })}
     </div>
   );
@@ -30,7 +30,11 @@ const School = ({ school }: SchoolProps) => {
       <div className="col-span-3 md:text-right">
         <p className="font-medium">{school.degree}</p>
         {school.minors.map((minor, i) => {
-          return <p className="text-sm italic">{minor}</p>;
+          return (
+            <p key={i} className="text-sm italic">
+              {minor}
+            </p>
+          );
         })}
         <mark>GPA: {school.gpa}</mark>
       </div>

@@ -3,6 +3,7 @@ import { Header, PhotoGallery, TextParser, Youtube } from '@components/Layout';
 import { projects_content } from '@content/projects/index';
 
 import { GitHubButton } from './Buttons';
+import Link from 'next/link';
 
 interface Props {}
 
@@ -30,13 +31,14 @@ export const Project = ({ data }: { data: Section }) => {
 
       {data.options.link ? (
         <p className="mb-1">
-          <a
-            href={data.options.link}
-            className="text-sm italic font-thin text-gray-800 no-underline"
-            target="_blank"
-          >
-            {data.options.link}
-          </a>
+          <Link href={data.options.link}>
+            <a
+              className="text-sm italic font-thin text-gray-800 no-underline"
+              target="_blank"
+            >
+              {data.options.link}
+            </a>
+          </Link>
         </p>
       ) : (
         <></>

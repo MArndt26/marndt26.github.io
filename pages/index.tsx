@@ -4,6 +4,7 @@ import { HTMLContainer } from '@components/Layout';
 import { MetaTags } from '@components/MetaTags';
 import { Projects } from '@components/Projects';
 import { Education } from '@components/Education';
+import Link from 'next/link';
 
 interface Props {}
 
@@ -25,12 +26,9 @@ const Footer = () => {
     <div className="pb-4 italic">
       <p>
         View Portfolio Source Code{' '}
-        <a
-          href="https://github.com/MArndt26/marndt26.github.io"
-          target="_blank"
-        >
-          here
-        </a>
+        <Link href="https://github.com/MArndt26/marndt26.github.io">
+          <a target="_blank">here</a>
+        </Link>
       </p>
     </div>
   );

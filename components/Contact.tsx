@@ -11,6 +11,7 @@ import {
   BsTwitter,
 } from 'react-icons/bs';
 import { ReactNode } from 'react';
+import Link from 'next/link';
 
 interface Props {}
 
@@ -65,12 +66,13 @@ export const IconLink = ({
   href: string;
 }) => {
   return (
-    <a
-      href={href}
-      className="relative z-10 flex items-center justify-center w-16 h-16 mx-1 rounded-full text-gray-50 button--sacnite"
-      target="_blank"
-    >
-      {children}
-    </a>
+    <Link href={href}>
+      <a
+        className="relative z-10 flex items-center justify-center w-16 h-16 mx-1 rounded-full text-gray-50 button--sacnite"
+        target="_blank"
+      >
+        {children}
+      </a>
+    </Link>
   );
 };

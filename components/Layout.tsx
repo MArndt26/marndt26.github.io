@@ -35,9 +35,9 @@ export const TextParser = ({
               } else if (item.options?.link) {
                 const link = item.options.link;
                 return (
-                  <a key={j} href={link.href} target="_blank">
-                    {item.text}
-                  </a>
+                  <Link key={j} href={link.href}>
+                    <a target="_blank">{item.text}</a>
+                  </Link>
                 );
               } else {
                 return item.text;
