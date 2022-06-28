@@ -9,8 +9,8 @@ interface Props {
 
 export const HTMLContainer = ({ children }: Props) => {
   return (
-    <div className="relative flex flex-col items-center w-screen h-screen pt-8 m-0 overflow-y-scroll text-center bg-neutral-50 dark:bg-neutral-800 dark:text-neutral-50">
-      <div className="h-full mx-6 space-y-5 lg:max-w-screen-lg md:max-w-screen-md md:mx-10">
+    <div className="relative flex flex-col items-center pt-8 m-0 text-center bg-neutral-50 dark:bg-neutral-800 dark:text-neutral-50">
+      <div className="min-h-content mx-6 space-y-5 lg:max-w-screen-lg md:max-w-screen-md md:mx-10">
         {children}
       </div>
     </div>
@@ -99,6 +99,7 @@ export const Youtube = ({ data }: YoutubeProps) => {
           src={`https://www.youtube.com/embed/${data.id}`}
           allowFullScreen
           frameBorder="0"
+          loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         />
       </div>

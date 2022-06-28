@@ -6,7 +6,7 @@
 @layer components {
   html,
   body {
-    @apply p-0 m-0 overflow-hidden text-base text-gray-800 overscroll-none;
+    @apply p-0 m-0  text-base text-gray-800 overflow-auto;
   }
 
   canvas {
