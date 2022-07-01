@@ -68,7 +68,7 @@ export const IconLink = ({
   return (
     <Link href={href}>
       <a
-        className="relative z-10 flex items-center justify-center w-16 h-16 mx-1 rounded-full text-gray-50 button--sacnite"
+        className="relative z-10 flex items-center justify-center w-16 h-16 mx-1 rounded-full text-neutral-50 button--sacnite"
         target="_blank"
       >
         {children}

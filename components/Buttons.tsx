@@ -11,7 +11,7 @@ export const GitHubButton = ({ link }: GHButtonProps) => {
       <div className="flex justify-center pb-1 cursor-pointer">
         <Link href={link}>
           <a
-            className="flex items-center justify-center px-2 py-1 font-mono text-gray-800 no-underline duration-75 bg-gray-100 rounded-full shadow-md hover:scale-110 w-min"
+            className="flex items-center justify-center px-2 py-1 font-mono text-neutral-800 no-underline duration-75 bg-neutral-100 rounded-full shadow-md hover:scale-110 w-min"
             target="_blank"
           >
             <BsGithub size="18" />

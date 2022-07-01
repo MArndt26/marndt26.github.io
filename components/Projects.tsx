@@ -23,7 +23,7 @@ export const Projects = ({}: Props) => {
 export const Project = ({ data }: { data: Section }) => {
   return (
     <div className="py-8">
-      <h3 className="pb-1 text-2xl font-semibold text-gray-700">
+      <h3 className="pb-1 text-2xl font-semibold text-neutral-700 dark:text-neutral-300">
         {data.title}
       </h3>
 
@@ -33,7 +33,7 @@ export const Project = ({ data }: { data: Section }) => {
         <p className="mb-1">
           <Link href={data.options.link}>
             <a
-              className="text-sm italic font-thin text-gray-800 no-underline"
+              className="text-sm italic font-thin no-underline dark:hover:underline"
               target="_blank"
             >
               {data.options.link}

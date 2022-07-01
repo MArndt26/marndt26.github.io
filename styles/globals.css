@@ -4,11 +4,6 @@
 @import-normalize;
 
 @layer components {
-  html,
-  body {
-    @apply p-0 m-0  text-base text-gray-800 overflow-auto;
-  }
-
   canvas {
     @apply fixed bg-black;
   }
@@ -18,7 +13,7 @@
   }
 
   mark {
-    @apply bg-gray-800 text-gray-50 pb-0.5 px-1 rounded-md shadow-md text-sm;
+    @apply bg-neutral-800 text-neutral-50 dark:bg-neutral-50 dark:text-neutral-800 dark:font-medium pb-0.5 px-1 rounded-md shadow-md text-sm;
   }
 
   .border-b-1\/2 {

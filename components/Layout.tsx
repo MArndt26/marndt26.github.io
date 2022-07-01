@@ -10,7 +10,7 @@ interface Props {
 export const HTMLContainer = ({ children }: Props) => {
   return (
     <div className="relative flex flex-col items-center pt-8 m-0 text-center bg-neutral-50 dark:bg-neutral-800 dark:text-neutral-50">
-      <div className="min-h-content mx-6 space-y-5 lg:max-w-screen-lg md:max-w-screen-md md:mx-10">
+      <div className="mx-6 space-y-5 min-h-content lg:max-w-screen-lg md:max-w-screen-md md:mx-10">
         {children}
       </div>
     </div>
@@ -52,7 +52,7 @@ export const TextParser = ({
 
 export const Header = ({ children }: Props) => {
   return (
-    <h2 className="pb-4 text-3xl font-thin border-black border-b-1/2">
+    <h2 className="pb-4 text-3xl font-thin border-neutral-800 border-b-1/2 dark:border-neutral-50">
       {children}
     </h2>
   );
