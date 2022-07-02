@@ -36,7 +36,7 @@ export const IconButton = ({
   return (
     <Link href={href}>
       <a
-        className="relative z-10 flex items-center justify-center w-16 h-16 mx-1 rounded-full text-neutral-50 button--sacnite before:content-[''] before:absolute before:w-full before:h-full before:rounded-full before:-z-10 before:scale-90 hover:text-neutral-800 before:hover:scale-100"
+        className="relative z-10 flex items-center justify-center w-16 h-16 mx-1 rounded-full text-neutral-50 before:duration-300 before:transition-all before:shadow-neutral-800 before:content-[''] before:absolute before:w-full before:shadow-inner-full before:hover:shadow-inner-sm before:h-full before:rounded-full before:-z-10 before:scale-90 hover:text-neutral-800 before:hover:scale-100"
         target="_blank"
       >
         {children}
