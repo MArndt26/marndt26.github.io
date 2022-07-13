@@ -2,7 +2,7 @@ import { Item, Paragraph } from '@content/content_types';
 
 export const about_content = [
   new Paragraph([
-    new Item('I am a Masters student at '),
+    new Item("I am a Master's student at "),
     new Item('Purdue University', { bold: true }),
     new Item(' studying '),
     new Item('Electrical Engineering', { bold: true }),

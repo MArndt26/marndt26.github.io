@@ -8,7 +8,7 @@ interface Props {
 
 export const MetaTags = ({
   title = 'Mitchell Arndt | Purdue Electrical Engineer',
-  description = 'I am a Masters student at Purdue University studying Electrical Engineering with a focus in Computer Architecture. I am intensely curious about ASIC design and embedded system development.',
+  description = "I am a Master's student at Purdue University studying Electrical Engineering with a focus in Computer Architecture. I am intensely curious about ASIC design and embedded system development.",
   image = '/banner.png',
 }: Props) => {
   return (
