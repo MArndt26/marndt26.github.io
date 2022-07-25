@@ -9,5 +9,6 @@
     "activityBar.background": "#29108A",
     "titleBar.activeBackground": "#3917C1",
     "titleBar.activeForeground": "#FAF9FE"
-  }
+  },
+  "cSpell.words": ["socet"]
 }

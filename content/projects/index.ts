@@ -1,3 +1,4 @@
+import { microchip_content } from '@content/projects/microchip';
 import { socet_content } from '@content/projects/socet';
 import { ece437_content } from '@content/projects/ece437';
 import { sink_or_be_sunk_content } from '@content/projects/sink-or-be-sunk';
@@ -9,6 +10,7 @@ import { flappy_content } from '@content/projects/flappy';
 import { e3_content } from '@content/projects/e3';
 
 export const projects_content = [
+  microchip_content,
   socet_content,
   ece437_content,
   sink_or_be_sunk_content,
