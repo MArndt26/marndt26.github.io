@@ -14,11 +14,11 @@ export const ece437_content = new Section(
   description,
   {
     photos: [
-      { href: 'ece437/System_Block_Diagram.png', type: 'big' },
-      { href: 'ece437/Datapath.png', type: 'small' },
-      { href: 'ece437/D_Cache.png', type: 'small' },
-      { href: 'ece437/I_Cache.png', type: 'small' },
-      { href: 'ece437/BusTransitions.png', type: 'small' },
+      { href: 'ece437/system.png', type: 'big' },
+      { href: 'ece437/bus_ctrl_fsm.png', type: 'small' },
+      { href: 'ece437/datapath.png', type: 'small' },
+      { href: 'ece437/dcache.png', type: 'small' },
+      { href: 'ece437/cache_ctrl_fsm.png', type: 'small' },
     ],
   }
 );

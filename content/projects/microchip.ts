@@ -39,11 +39,12 @@ export const microchip_content = new Section(
   {
     // github:'https://github.com/Purdue-SoCET/RISCVBusiness/tree/Caches/verification/uvm/caches',
     photos: [
-      { href: 'microchip/smi_fsm.svg', type: 'tall' },
-      { href: 'microchip/smi_waves.svg', type: 'small' },
-      { href: 'microchip/smi_uvm_top.svg', type: 'wide' },
+      { href: 'microchip/smi_fsm.png', type: 'tall' },
+      { href: 'microchip/smi_waves.png', type: 'small' },
+      { href: 'microchip/smi_uvm_top.png', type: 'wide' },
+      { href: 'microchip/smi_sch.png', type: 'small' },
       { href: 'microchip/smi_core_syn_top.png', type: 'small' },
-      { href: 'microchip/smi_core_syn_expanded.png', type: 'small' },
+      { href: 'microchip/fifo_sch.png', type: 'small' },
     ],
   }
 );
